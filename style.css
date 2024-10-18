@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  height: 15dvh;
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .BoxLogo {
+  width: 20dvw;
+  display: flex;
+  align-items: center;
+}
+header .BoxLogo img {
+  width: 6.5dvw;
+}
+header .BoxLogo h1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.7dvw;
+}
+
+nav {
+  width: 40dvw;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5dvw;
+}
+nav ul a {
+  color: #ffffff;
+}
+
+.PrimeiroArtigo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFD9EC;
+  padding: 0.7dvw;
+}
+.PrimeiroArtigo p {
+  width: 38.42dvw;
+  font-size: 1.3dvw;
+}
+
+.SegundoArtigo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FF69B4;
+  padding: 0.7dvw;
+}
+.SegundoArtigo p {
+  width: 38.42dvw;
+  font-size: 1.3dvw;
+  color: #ffffff;
+}
+
+main section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12.36dvh;
+  background-color: #FFD9EC;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FF69B4;
+  color: #ffffff;
+}
+footer section {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
